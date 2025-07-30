@@ -23,6 +23,7 @@ touch analysis/main.py
 # download client data
 curl -Lo rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
 unzip -q rawdata.zip
+mkdir data
 
 ###########################################
 # Complete assignment here
@@ -48,4 +49,4 @@ unzip -q rawdata.zip
 
 echo "Project setup is complete!"
 
-echo "Change is made." 
+
