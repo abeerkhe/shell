@@ -23,12 +23,13 @@ touch analysis/main.py
 # download client data
 curl -Lo rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
 unzip -q rawdata.zip
-mkdir data
 
 ###########################################
 # Complete assignment here
 
 # 1. Create a directory named data
+
+mkdir data
 
 # 2. Move the ./rawdata directory to ./data/raw
 
